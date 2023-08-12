@@ -1,0 +1,16 @@
+{
+  "name": "chathr",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@vespaiach/axios-fetch-adapter": "^0.3.1",
+    "openai": "^3.3.0"
+  }
+}
